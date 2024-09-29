@@ -8,6 +8,7 @@ import { CustomerDashboardModule } from './customer-dashboard/customer-dashboard
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AboutComponent } from './about/about.component';
 import { FormsModule } from '@angular/forms';
+import { HightlightDirective } from './directives/hightlight.directive';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     PageNotFoundComponent,
     AboutComponent,
+    HightlightDirective,
   ],
   imports: [
     BrowserModule,
