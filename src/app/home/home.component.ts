@@ -10,4 +10,9 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  public resetName(): void {
+    console.log(this.name);
+    this.name = '';
+  }
 }

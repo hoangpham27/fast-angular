@@ -2,5 +2,7 @@
     <h2>Component Home</h2>
     <p>Hello, here is Home Component.</p>
     <p>Im {{ name }}! Nice to meet you.</p>
-    <input [value]="name">
+    <!-- <input [value]="name"> -->
+    <input type="text" [(ngModel)]="name">
+    <button (click)="resetName()">Reset name</button>
 </div>
